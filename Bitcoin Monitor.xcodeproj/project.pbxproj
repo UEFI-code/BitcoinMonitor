@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8463FDD62463985F0034C1C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463FDD52463985F0034C1C1 /* AppDelegate.m */; };
+		8463FDD92463985F0034C1C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463FDD82463985F0034C1C1 /* ViewController.m */; };
+		8463FDDB246398650034C1C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8463FDDA246398650034C1C1 /* Assets.xcassets */; };
+		8463FDDE246398650034C1C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8463FDDC246398650034C1C1 /* Main.storyboard */; };
+		8463FDE1246398650034C1C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463FDE0246398650034C1C1 /* main.m */; };
+		8463FDEC246398660034C1C1 /* Bitcoin_MonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463FDEB246398660034C1C1 /* Bitcoin_MonitorTests.m */; };
+		8463FDF7246398660034C1C1 /* Bitcoin_MonitorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463FDF6246398660034C1C1 /* Bitcoin_MonitorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8463FDE8246398660034C1C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8463FDC92463985F0034C1C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8463FDD02463985F0034C1C1;
+			remoteInfo = "Bitcoin Monitor";
+		};
+		8463FDF3246398660034C1C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8463FDC92463985F0034C1C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8463FDD02463985F0034C1C1;
+			remoteInfo = "Bitcoin Monitor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8463FDD12463985F0034C1C1 /* Bitcoin Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitcoin Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8463FDD42463985F0034C1C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8463FDD52463985F0034C1C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8463FDD72463985F0034C1C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8463FDD82463985F0034C1C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8463FDDA246398650034C1C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8463FDDD246398650034C1C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8463FDDF246398650034C1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8463FDE0246398650034C1C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8463FDE2246398650034C1C1 /* Bitcoin_Monitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bitcoin_Monitor.entitlements; sourceTree = "<group>"; };
+		8463FDE7246398660034C1C1 /* Bitcoin MonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitcoin MonitorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8463FDEB246398660034C1C1 /* Bitcoin_MonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bitcoin_MonitorTests.m; sourceTree = "<group>"; };
+		8463FDED246398660034C1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8463FDF2246398660034C1C1 /* Bitcoin MonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitcoin MonitorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8463FDF6246398660034C1C1 /* Bitcoin_MonitorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bitcoin_MonitorUITests.m; sourceTree = "<group>"; };
+		8463FDF8246398660034C1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8463FDCE2463985F0034C1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8463FDE4246398660034C1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8463FDEF246398660034C1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8463FDC82463985F0034C1C1 = {
+			isa = PBXGroup;
+			children = (
+				8463FDD32463985F0034C1C1 /* Bitcoin Monitor */,
+				8463FDEA246398660034C1C1 /* Bitcoin MonitorTests */,
+				8463FDF5246398660034C1C1 /* Bitcoin MonitorUITests */,
+				8463FDD22463985F0034C1C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8463FDD22463985F0034C1C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8463FDD12463985F0034C1C1 /* Bitcoin Monitor.app */,
+				8463FDE7246398660034C1C1 /* Bitcoin MonitorTests.xctest */,
+				8463FDF2246398660034C1C1 /* Bitcoin MonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8463FDD32463985F0034C1C1 /* Bitcoin Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				8463FDD42463985F0034C1C1 /* AppDelegate.h */,
+				8463FDD52463985F0034C1C1 /* AppDelegate.m */,
+				8463FDD72463985F0034C1C1 /* ViewController.h */,
+				8463FDD82463985F0034C1C1 /* ViewController.m */,
+				8463FDDA246398650034C1C1 /* Assets.xcassets */,
+				8463FDDC246398650034C1C1 /* Main.storyboard */,
+				8463FDDF246398650034C1C1 /* Info.plist */,
+				8463FDE0246398650034C1C1 /* main.m */,
+				8463FDE2246398650034C1C1 /* Bitcoin_Monitor.entitlements */,
+			);
+			path = "Bitcoin Monitor";
+			sourceTree = "<group>";
+		};
+		8463FDEA246398660034C1C1 /* Bitcoin MonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				8463FDEB246398660034C1C1 /* Bitcoin_MonitorTests.m */,
+				8463FDED246398660034C1C1 /* Info.plist */,
+			);
+			path = "Bitcoin MonitorTests";
+			sourceTree = "<group>";
+		};
+		8463FDF5246398660034C1C1 /* Bitcoin MonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8463FDF6246398660034C1C1 /* Bitcoin_MonitorUITests.m */,
+				8463FDF8246398660034C1C1 /* Info.plist */,
+			);
+			path = "Bitcoin MonitorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8463FDD02463985F0034C1C1 /* Bitcoin Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8463FDFB246398660034C1C1 /* Build configuration list for PBXNativeTarget "Bitcoin Monitor" */;
+			buildPhases = (
+				8463FDCD2463985F0034C1C1 /* Sources */,
+				8463FDCE2463985F0034C1C1 /* Frameworks */,
+				8463FDCF2463985F0034C1C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bitcoin Monitor";
+			productName = "Bitcoin Monitor";
+			productReference = 8463FDD12463985F0034C1C1 /* Bitcoin Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8463FDE6246398660034C1C1 /* Bitcoin MonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8463FDFE246398660034C1C1 /* Build configuration list for PBXNativeTarget "Bitcoin MonitorTests" */;
+			buildPhases = (
+				8463FDE3246398660034C1C1 /* Sources */,
+				8463FDE4246398660034C1C1 /* Frameworks */,
+				8463FDE5246398660034C1C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8463FDE9246398660034C1C1 /* PBXTargetDependency */,
+			);
+			name = "Bitcoin MonitorTests";
+			productName = "Bitcoin MonitorTests";
+			productReference = 8463FDE7246398660034C1C1 /* Bitcoin MonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8463FDF1246398660034C1C1 /* Bitcoin MonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8463FE01246398660034C1C1 /* Build configuration list for PBXNativeTarget "Bitcoin MonitorUITests" */;
+			buildPhases = (
+				8463FDEE246398660034C1C1 /* Sources */,
+				8463FDEF246398660034C1C1 /* Frameworks */,
+				8463FDF0246398660034C1C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8463FDF4246398660034C1C1 /* PBXTargetDependency */,
+			);
+			name = "Bitcoin MonitorUITests";
+			productName = "Bitcoin MonitorUITests";
+			productReference = 8463FDF2246398660034C1C1 /* Bitcoin MonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8463FDC92463985F0034C1C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "SuperHacker UEFI";
+				TargetAttributes = {
+					8463FDD02463985F0034C1C1 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					8463FDE6246398660034C1C1 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 8463FDD02463985F0034C1C1;
+					};
+					8463FDF1246398660034C1C1 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 8463FDD02463985F0034C1C1;
+					};
+				};
+			};
+			buildConfigurationList = 8463FDCC2463985F0034C1C1 /* Build configuration list for PBXProject "Bitcoin Monitor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8463FDC82463985F0034C1C1;
+			productRefGroup = 8463FDD22463985F0034C1C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8463FDD02463985F0034C1C1 /* Bitcoin Monitor */,
+				8463FDE6246398660034C1C1 /* Bitcoin MonitorTests */,
+				8463FDF1246398660034C1C1 /* Bitcoin MonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8463FDCF2463985F0034C1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8463FDDB246398650034C1C1 /* Assets.xcassets in Resources */,
+				8463FDDE246398650034C1C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8463FDE5246398660034C1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8463FDF0246398660034C1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8463FDCD2463985F0034C1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8463FDD92463985F0034C1C1 /* ViewController.m in Sources */,
+				8463FDE1246398650034C1C1 /* main.m in Sources */,
+				8463FDD62463985F0034C1C1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8463FDE3246398660034C1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8463FDEC246398660034C1C1 /* Bitcoin_MonitorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8463FDEE246398660034C1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8463FDF7246398660034C1C1 /* Bitcoin_MonitorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8463FDE9246398660034C1C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8463FDD02463985F0034C1C1 /* Bitcoin Monitor */;
+			targetProxy = 8463FDE8246398660034C1C1 /* PBXContainerItemProxy */;
+		};
+		8463FDF4246398660034C1C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8463FDD02463985F0034C1C1 /* Bitcoin Monitor */;
+			targetProxy = 8463FDF3246398660034C1C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8463FDDC246398650034C1C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8463FDDD246398650034C1C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8463FDF9246398660034C1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8463FDFA246398660034C1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8463FDFC246398660034C1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Bitcoin Monitor/Bitcoin_Monitor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2ZYTHAF828;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Bitcoin Monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ULove.Bitcoin-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8463FDFD246398660034C1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Bitcoin Monitor/Bitcoin_Monitor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2ZYTHAF828;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Bitcoin Monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ULove.Bitcoin-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8463FDFF246398660034C1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2ZYTHAF828;
+				INFOPLIST_FILE = "Bitcoin MonitorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ULove.Bitcoin-MonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitcoin Monitor.app/Contents/MacOS/Bitcoin Monitor";
+			};
+			name = Debug;
+		};
+		8463FE00246398660034C1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2ZYTHAF828;
+				INFOPLIST_FILE = "Bitcoin MonitorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ULove.Bitcoin-MonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitcoin Monitor.app/Contents/MacOS/Bitcoin Monitor";
+			};
+			name = Release;
+		};
+		8463FE02246398660034C1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2ZYTHAF828;
+				INFOPLIST_FILE = "Bitcoin MonitorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ULove.Bitcoin-MonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bitcoin Monitor";
+			};
+			name = Debug;
+		};
+		8463FE03246398660034C1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2ZYTHAF828;
+				INFOPLIST_FILE = "Bitcoin MonitorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ULove.Bitcoin-MonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bitcoin Monitor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8463FDCC2463985F0034C1C1 /* Build configuration list for PBXProject "Bitcoin Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8463FDF9246398660034C1C1 /* Debug */,
+				8463FDFA246398660034C1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8463FDFB246398660034C1C1 /* Build configuration list for PBXNativeTarget "Bitcoin Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8463FDFC246398660034C1C1 /* Debug */,
+				8463FDFD246398660034C1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8463FDFE246398660034C1C1 /* Build configuration list for PBXNativeTarget "Bitcoin MonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8463FDFF246398660034C1C1 /* Debug */,
+				8463FE00246398660034C1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8463FE01246398660034C1C1 /* Build configuration list for PBXNativeTarget "Bitcoin MonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8463FE02246398660034C1C1 /* Debug */,
+				8463FE03246398660034C1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8463FDC92463985F0034C1C1 /* Project object */;
+}
